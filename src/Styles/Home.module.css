@@ -1,0 +1,19 @@
+.container{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.productsContainer{
+    width:85%;
+    height:auto;
+    display: flex;
+    padding: 15px 140px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.search{
+    margin-top: 7rem;
+}

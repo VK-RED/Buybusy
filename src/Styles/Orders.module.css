@@ -1,0 +1,52 @@
+
+.header{
+    margin: 30px auto;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.ordersContainer{
+
+    height:auto;
+    width:95vw;
+    margin: 15px 20px;
+    padding: 10px 15px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    
+}
+
+.tableWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem auto;
+}
+
+.orderedTime{
+    margin:0px auto 20px auto;
+    font-size:x-large;
+}
+
+table{
+    height:auto;
+    width: 50vw;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+tr{
+    height:2rem;
+}
+
+td{
+    background-color: rgba(214, 213, 221, 0.836);
+}
+
+th,td{
+    padding: 1rem;
+}

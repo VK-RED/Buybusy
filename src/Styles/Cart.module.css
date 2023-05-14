@@ -1,0 +1,121 @@
+
+.cartContainer{
+    /* border: 1px solid red; */
+    height:100vh;
+    width:97vw;
+    margin: 10px auto;
+    padding: 20px 35px;
+}
+
+.priceContainer{
+    height:25vh;
+    width: 20vw;
+    border: 1px solid black;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right:35px;
+    top: 125px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.purchaseBtn{
+
+    height:2rem;
+    width:7rem;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: rgb(225, 12, 233);
+    color: aliceblue;
+    border: 1px solid black;
+    font-weight: 700;
+
+}
+
+.itemsContainer{
+    height:auto;
+    width: 70vw;
+    padding: 10px 20px;
+    display: flex;
+    /* border: 1px solid purple; */
+    position:relative;
+    top:60px;
+    flex-wrap: wrap;
+}
+
+.productContainer{
+    height: 75vh;
+    width:  19vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+
+.productContainer > img{
+    height: 65%;
+    width:70%;
+    margin: 7px auto;
+}
+
+.productTitle{
+    margin:5px auto;
+}
+
+.productPrice{
+    margin:10px auto;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.quantityContainer{
+
+    height:2.7rem;
+    width:7rem;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto 10px auto;
+    font-size: medium;
+
+}
+
+.quantityContainer > img{
+
+    height:20px;
+    width:20px;
+    cursor: pointer;
+    
+}
+
+.removeBtn{
+    height:2.5rem;
+    width:7rem;
+    padding: 2px 3px;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: crimson;
+    color: aliceblue;
+    font-weight: 300;
+    border: 1px solid black;
+}
+
+.emptyCartContainer{
+    height:40vh;
+    width: 60vw;
+    
+    text-align: center;
+    margin: 30vh auto;
+    font-size: xx-large;
+    font-weight: 700;
+
+
+}
+
